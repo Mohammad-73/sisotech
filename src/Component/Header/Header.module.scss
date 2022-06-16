@@ -1,0 +1,32 @@
+.root {
+  :global {
+    .ant-layout-header {
+      background: transparent linear-gradient(90deg, #bb0000 0%, #a40303 100%)
+        0% 0% no-repeat padding-box;
+      height: 100px;
+      line-height: 24px;
+      padding: 10px 40px;
+    }
+  }
+  .headerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .title {
+    color: white;
+  }
+  .sample {
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+  }
+  .button {
+    background: white;
+    border-radius: 0px;
+    padding: 10px 40px;
+    border: none;
+    font-size: 20px;
+  }
+}

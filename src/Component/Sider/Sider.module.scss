@@ -1,0 +1,16 @@
+.root {
+  li {
+    cursor: pointer;
+    padding: 5px;
+  }
+  :global {
+    .ant-layout-sider {
+      background: white;
+      margin: 5px;
+      border-radius: 2px;
+      font-size: 20px;
+      width: 20rem;
+      height: 100%;
+    }
+  }
+}
